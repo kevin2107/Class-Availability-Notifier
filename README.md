@@ -2,7 +2,7 @@
 
 <img src="images/Class-notifier.png" alt="Notifier" >
 
-Automatically sends you a notification via Sound or Text when a class you're looking for is available. Only works for the **University of South Florida**. Written in pure python. 
+Automatically sends you a notification via Sound or Text when a class you're looking for is available. Only works for the **University of South Florida**. Written fully in Python.
 
 ### How-to
 -----
