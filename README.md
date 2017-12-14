@@ -24,6 +24,6 @@ Automatically sends you a notification via Sound or Text when a class you're loo
   To not waste your text messages the notifier will only send the text once and only once when your class is available. Restart the application to reset text messaging. Better functionality will be added later.
   
 ### Installing without Python
-
+-----
 1. [Click Here](https://github.com/kevin2107/Class-Availability-Notifier/releases/download/0.9.7/latest.zip) to download the latest exe release
 2. Launch usfcheck.exe in the same folder as chromedriver.exe and enjoy!
