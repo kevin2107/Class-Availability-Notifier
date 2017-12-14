@@ -15,7 +15,7 @@ Automatically sends you a notification via Sound or Text when a class you're loo
 ### Setting up text messaging
 -----
   > Text messaging will require you to have a Twilio account, it's a text messaging api. 
-  > Register a free account, get your Account SID and API key. Then Register a new number, after you register a new number click on it and add your personal phone number to the list numbers your twilio from number can send messages too.
+  > Register a free account, get your Account SID and API key. Then Register a new number, after you register a new number click on it and add your personal phone number to the list of numbers your twilio "From Number" can send messages too.
  
  <img src="images/Texting.png" alt="Notifier" >
  
