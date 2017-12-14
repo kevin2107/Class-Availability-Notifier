@@ -10,7 +10,7 @@ Automatically sends you a notification via Sound or Text when a class you're loo
 2. Select Term
 3. Select Campus
 4. Hit "Lookup Class"
-  -Program will refresh the page every 60 seconds. A whistle sound will play if the class has seats open. A low beep will play to let you know that it found your class but no seats are open. I suggest just leaving the application in the background.
+5. Program will refresh the page every 60 seconds. A whistle sound will play if the class has seats open. A low beep will play to let you know that it found your class but no seats are open. I suggest just leaving the application in the background.
   
 ### Setting up text messaging
 -----
