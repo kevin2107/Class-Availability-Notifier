@@ -9,17 +9,18 @@ import wx.adv#Advanced GUI Options
 from twilio.rest import Client #text support
 #Test CRN: 24345
 
-Current = '0.9.6'
+Current = '0.9.7'
 '''	
-	Todo:Save twilio-API settings +0.0.1
+	Todo:Persistant twilio-API settings +0.0.1
 		figure out text messaging scheme/frequency +0.0.1
 		custom sound options +0.0.1
-		add campus setting +0.0.1
+		input validation + 0.0.1 
 		
 	Done:
 		put dropdown box for semester - done
 		fix headless mode setting - done 
 		fix twilio api support +0.0.1 - done
+		add campus setting +0.0.1 - done
 '''
 
 global CRN, Term, Headless, sentText
@@ -290,8 +291,8 @@ class schedule_check():
 				pass
 		try:
 			driver.get("http://www.registrar.usf.edu/ssearch/search.php")
-		except:
-			Class_Notify_GUI.SetStatusText('Failed to load website', 0)
+		except Exception:
+			return Class_Notify_GUI.SetStatusText('Failed to load website', 0)
 			pass
 		#Term
 		Find_Term = driver.find_element_by_xpath("/html/body/form/table/tbody/tr[2]/td[2]/select[1]")
@@ -327,8 +328,8 @@ class schedule_check():
 
 		try:
 			self.send_text(twilioSID, twilioapiKey, twilioapiSecret, twiliofromNumber, selfPhoneNumber, Title)
-		except:
-			Class_Notify_GUI.statusUpdate("Error while sending text, check settings",0)
+		except Exception:
+			return Class_Notify_GUI.statusUpdate("Error while sending text, check settings",0)
 			pass
 			
 		##Notify
