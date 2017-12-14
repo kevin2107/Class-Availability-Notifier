@@ -21,4 +21,4 @@ Automatically sends you a notification via Sound or Text when a class you're loo
  
   Then go to tools > API keys > Create New API Key > Name it and Create API Key > Copy down your phone number API secret as **you only get to see it once** > Paste your Account SID, API key, and Secret key into the app along with your from number and to number **no dashes**
   
-  To not waste your text messages the notifier will only send the text once and only once when your class is available. Restart the application to reset text messaging.
+  To not waste your text messages the notifier will only send the text once and only once when your class is available. Restart the application to reset text messaging. Better functionality will be added later.
