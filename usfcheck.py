@@ -339,11 +339,9 @@ class schedule_check():
 			WebDriverWait(driver, 10).until(EC.title_contains("USF - OASIS Schedule of Classes"))
 			Class_Notify_GUI.statusUpdate(Subject + ': ' + Title, 0)
 			Class_Notify_GUI.statusUpdate('Seats: ' + Seat_info.text, 1)
-			print ('Refreshing in 15 Seconds...Press CTRL+C to end')
-			print ('-----------')
 		finally:
 			driver.quit()	
-			sleep(15)
+			sleep(60)
 			repeat = schedule_check()
 
 
