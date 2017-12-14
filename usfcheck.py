@@ -183,7 +183,7 @@ class Class_Notify_GUI(wx.Frame):
 		self.Centre()
 		self.Show()		
 		
-		favicon = wx.Icon('icon.ico', wx.BITMAP_TYPE_ICO)
+		favicon = wx.Icon('images\icon.ico', wx.BITMAP_TYPE_ICO)
 		wx.Frame.SetIcon(self, favicon)
 		
 	def InitUI(self):
@@ -382,6 +382,6 @@ if __name__ == '__main__':
   
 	app = wx.App()
 	MY_APP_VERSION_STRING = Current
-	Class_Notify_GUI(None, title='Usf Class notifier')
+	Class_Notify_GUI(None, title='Class notifier')
 	app.MainLoop()
 
