@@ -1,4 +1,4 @@
-# Class-Availability-Notifier graphical script
+# Class-Availability-Notifier Graphical Script(Gript)
 
 <img src="images/Class-notifier.png" alt="Notifier" >
 
