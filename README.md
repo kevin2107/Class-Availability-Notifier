@@ -1,8 +1,8 @@
-# Class-Availability-Notifier Graphical Script(Gript)
+# Automated Class-Availability-Notifier
 
 <img src="images/Class-notifier.png" alt="Notifier" >
 
-Automatically sends you a notification via Sound or Text when a class you're looking for is available. Only works for the **University of South Florida**. Written in Python.
+This is a Graphical Script(Gript)that Automatically sends you a notification via Sound or Text when a class you're looking for is available. Only works for the **University of South Florida**. Written in Python.
 
 ### How-to
 -----
