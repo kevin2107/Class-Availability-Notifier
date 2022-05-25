@@ -2,7 +2,7 @@
 chardet==3.0.4
 idna==2.6
 pygame==1.9.3
-PyJWT==1.5.3
+PyJWT==2.4.0
 PySocks==1.6.7
 pytz==2017.3
 requests==2.20.0
